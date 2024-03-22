@@ -1,0 +1,37 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Arial", sans-serif;
+  font-size: 10pt;
+  font-style: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  max-width: 750px;
+}
+
+@media all and (min-width:801px) and (max-width: 1024px) {
+  body {
+    max-width: fit-content;
+  }
+}
+
+h1, h2, h3, h4, h5, p, dl, dt {
+  margin: 0px 0px 10px 0px;
+}
+
+h1 .lighttitle {
+  color: #999999;
+}
+
+hr {
+  margin: 10px 0px 10px 0px;
+}
+
+dd {
+  margin: -10px 0px 10px 10px;
+  padding: 0px 0px 0px 0px;
+}
+
+a {
+  color: #990000;
+}
